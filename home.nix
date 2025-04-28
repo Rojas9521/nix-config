@@ -293,6 +293,7 @@ automatically-unhide-macos-hidden-apps = false
     #   org.gradle.console=verbose
     #   org.gradle.daemon.idletimeout=3600000
     # '';
+    ".hushlogin".text = "";
   };
 
   # You can also manage environment variables but you will have to manually
@@ -315,6 +316,17 @@ automatically-unhide-macos-hidden-apps = false
   programs.fzf.enable = true;
   programs.fzf.enableZshIntegration = true;
   programs.zsh.enable = true;
+  programs.zsh.initContent = ''
+   cat << "EOF"
+
+    __ __            _              ___           
+    |  \  \ ___ ._ _ | |__ ___  _ _ | . \ ___  _ _ 
+    |     |/ . \| ' || / // ._>| | || | |/ ._>| | |
+    |_|_|_|\___/|_|_||_\_\\___.`_. ||___/\___.|__/ 
+                              <___'            
+
+ EOF
+  '';
   # TMUX
   programs.tmux = {
     enable = true;
