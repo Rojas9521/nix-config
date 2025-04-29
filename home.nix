@@ -325,7 +325,6 @@ automatically-unhide-macos-hidden-apps = false
     |     |/ . \| ' || / // ._>| | || | |/ ._>| | |
     |_|_|_|\___/|_|_||_\_\\___.`_. ||___/\___.|__/ 
                               <___'            
-
  EOF
   '';
   # TMUX
