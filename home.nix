@@ -45,6 +45,7 @@ in
   pkgs.lua-language-server
   pkgs.nil
   pkgs.ranger
+  pkgs.thunderbird
 
     # # Adds the 'hello' command to your environment. It prints a friendly
     # # "Hello, world!" when run.
