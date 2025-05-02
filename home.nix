@@ -410,7 +410,7 @@ automatically-unhide-macos-hidden-apps = false
 
     font = {
       normal = {
-        family = "JetBrains Mono";
+        family = "JetBrainsMono Nerd Font";
       };
       size = 19.0;
     };
