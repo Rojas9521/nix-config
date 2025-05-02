@@ -403,5 +403,16 @@ automatically-unhide-macos-hidden-apps = false
   # Alacritty Terminal
   programs.alacritty.enable = true;
   programs.alacritty.theme = "catppuccin";
-  # programs.alacritty.settings = {};
+  programs.alacritty.settings = {
+    window = {
+      opacity = 0.85;
+    };
+
+    font = {
+      normal = {
+        family = "JetBrains Mono";
+      };
+      size = 19.0;
+    };
+  };
 }
