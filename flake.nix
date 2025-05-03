@@ -61,6 +61,8 @@
       system.defaults.finder._FXShowPosixPathInTitle = true;
       system.defaults.dock.autohide = true;
       system.defaults.NSGlobalDomain.AppleShowAllExtensions = true;
+      # Disable AppleFontSmoothing system-wide
+      system.defaults.NSGlobalDomain.AppleFontSmoothing = 0;
       # system.defaults.NSGlobalDomain.InitialKeyRepeat = 1;
       # system.defaults.NSGlobalDomain
       homebrew = {
