@@ -418,7 +418,7 @@ automatically-unhide-macos-hidden-apps = false
       italic = {
         family = "FiraMono Nerd Font Mono";
       };
-      size = 19.0;
+      size = 20.0;
     };
   };
 }
