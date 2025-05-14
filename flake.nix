@@ -68,6 +68,9 @@
       # system.defaults.NSGlobalDomain.InitialKeyRepeat = 1;
       # system.defaults.NSGlobalDomain
       homebrew = {
+        masApps = {
+          HazeOver = 430798174;
+        };
         enable = true;
         caskArgs.no_quarantine = true; # disables the warning of opening the app in the first time
         global.brewfile = true; # when enabled, this option sets the HOMEBREW_BUNDLE_FILE environment variable to the path of the Brewfile that this module generates in the Nix store, by adding it to.
