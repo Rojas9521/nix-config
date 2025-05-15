@@ -63,10 +63,7 @@
       system.defaults.NSGlobalDomain.AppleShowAllExtensions = true;
       system.defaults.trackpad.FirstClickThreshold = 0;
       system.defaults.trackpad.Clicking = true;
-      # Disable AppleFontSmoothing system-wide
       system.defaults.NSGlobalDomain.AppleFontSmoothing = 0;
-      # system.defaults.NSGlobalDomain.InitialKeyRepeat = 1;
-      # system.defaults.NSGlobalDomain
       homebrew = {
         masApps = {
           HazeOver = 430798174;
@@ -75,7 +72,7 @@
         caskArgs.no_quarantine = true; # disables the warning of opening the app in the first time
         global.brewfile = true; # when enabled, this option sets the HOMEBREW_BUNDLE_FILE environment variable to the path of the Brewfile that this module generates in the Nix store, by adding it to.
         masApps = {};
-        casks = ["inkdrop" "1password" "1password-cli" "spotify" "raycast" "cursor" "windsurf"];
+        casks = ["inkdrop" "1password" "1password-cli" "spotify" "raycast" "cursor" "windsurf" "arc"];
         taps = [];
         brews = [];
       };
