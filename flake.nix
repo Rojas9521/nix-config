@@ -53,6 +53,7 @@
         nerd-fonts.meslo-lg
         nerd-fonts.fira-code
         nerd-fonts.fira-mono
+        nerd-fonts.geist-mono
       ];
       # services.nix-daemon.enable = true;
 
