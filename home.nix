@@ -406,7 +406,7 @@ automatically-unhide-macos-hidden-apps = false
   programs.alacritty.theme = "catppuccin";
   programs.alacritty.settings = {
     window = {
-      opacity = 0.85;
+      opacity = 1;
     };
 
     font = {

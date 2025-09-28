@@ -73,7 +73,7 @@
         caskArgs.no_quarantine = true; # disables the warning of opening the app in the first time
         global.brewfile = true; # when enabled, this option sets the HOMEBREW_BUNDLE_FILE environment variable to the path of the Brewfile that this module generates in the Nix store, by adding it to.
         masApps = {};
-        casks = ["inkdrop" "1password" "1password-cli" "spotify" "raycast" "cursor" "windsurf" "docker"];
+        casks = ["inkdrop" "1password" "1password-cli" "spotify" "raycast" "docker"];
         taps = [];
         brews = [];
       };
